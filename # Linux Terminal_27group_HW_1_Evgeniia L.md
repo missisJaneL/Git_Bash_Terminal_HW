@@ -44,9 +44,20 @@ curl http://162.55.220.72:5005/terminal-hw-request
 curl "http://162.55.220.72:5005/get_method?name="Jane"&age=25"
 (пришел ответ в JSON)
 
-2.  Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  === разобраться, как делать автоматический скрипт (см.видео проверка д/з)
+2.  Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  ===
+touch script_HW.txt
+vim script_HW.txt
+!#/bin/bash
+mkdir a1
+cd a1
+mkdir b1 b2 b3
+cd b1
+touch c1.json c2.json d1.txt d2.txt d3.txt
+mkdir e1 e2 e3
+ls -la
+mv c1.json c2.json ../b2
+Esc 
+:wq
+./script_HW.txt
 
 =====================
-1) Посмотреть где я - pwd
-2) Создать папку - mkdir foldername
-3) Зайти в папку - cd foldername
