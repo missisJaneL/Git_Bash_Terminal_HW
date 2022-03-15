@@ -45,8 +45,9 @@ curl "http://162.55.220.72:5005/get_method?name="Jane"&age=25"
 (пришел ответ в JSON)
 
 2.  Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13  ===
-touch script_HW.txt
-vim script_HW.txt
+
+1. touch script_HW.txt
+2. vim script_HW.txt
 !#/bin/bash
 mkdir a1
 cd a1
